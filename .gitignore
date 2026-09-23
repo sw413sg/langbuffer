@@ -1,0 +1,13 @@
+LiveTranslate/runtime/
+LiveTranslate/data/
+.relocation-check/
+.venv/
+work/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+outputs/
+LiveTranslate/outputs/
+AGENTS.md

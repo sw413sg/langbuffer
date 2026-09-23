@@ -1,0 +1,592 @@
+{
+  "argos": [
+    {
+      "id": "translate-zh_en",
+      "source": "zh",
+      "target": "en",
+      "url": "https://argos-net.com/v1/translate-zh_en-1_9.argosmodel",
+      "bytes": 74481402,
+      "md5": "e7a7555192847928cf821b44cb7e7d1e",
+      "root": "translate-zh_en-1_9",
+      "files": {
+        "metadata.json": {
+          "bytes": 135,
+          "crc32": 2468995594
+        },
+        "README.md": {
+          "bytes": 393,
+          "crc32": 3758312282
+        },
+        "sentencepiece.model": {
+          "bytes": 804374,
+          "crc32": 2721486867
+        },
+        "model/config.json": {
+          "bytes": 196,
+          "crc32": 2677383816
+        },
+        "model/model.bin": {
+          "bytes": 82713318,
+          "crc32": 3918572158
+        },
+        "model/shared_vocabulary.json": {
+          "bytes": 1368422,
+          "crc32": 3429391095
+        }
+      },
+      "version": "1.9",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-en_zh",
+      "source": "en",
+      "target": "zh",
+      "url": "https://argos-net.com/v1/translate-en_zh-1_9.argosmodel",
+      "bytes": 70743021,
+      "md5": "5f5f67c42783e5c64a27c16a845571c2",
+      "root": "translate-en_zh-1_9",
+      "files": {
+        "metadata.json": {
+          "bytes": 135,
+          "crc32": 82602034
+        },
+        "sentencepiece.model": {
+          "bytes": 806370,
+          "crc32": 97452000
+        },
+        "README.md": {
+          "bytes": 401,
+          "crc32": 3424923336
+        },
+        "model/shared_vocabulary.json": {
+          "bytes": 1367577,
+          "crc32": 2706827424
+        },
+        "model/model.bin": {
+          "bytes": 82713318,
+          "crc32": 46344019
+        },
+        "model/config.json": {
+          "bytes": 216,
+          "crc32": 2695472111
+        }
+      },
+      "version": "1.9",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-en_fr",
+      "source": "en",
+      "target": "fr",
+      "url": "https://argos-net.com/v1/translate-en_fr-1_9.argosmodel",
+      "bytes": 65472327,
+      "md5": "80e1d4f0aab92ad60a356123b5e0086e",
+      "root": "translate-en_fr-1_9",
+      "files": {
+        "metadata.json": {
+          "bytes": 134,
+          "crc32": 3878829203
+        },
+        "README.md": {
+          "bytes": 400,
+          "crc32": 721866336
+        },
+        "sentencepiece.model": {
+          "bytes": 778395,
+          "crc32": 1708901242
+        },
+        "model/config.json": {
+          "bytes": 196,
+          "crc32": 2677383816
+        },
+        "model/model.bin": {
+          "bytes": 79860078,
+          "crc32": 2415068548
+        },
+        "model/shared_vocabulary.json": {
+          "bytes": 1112211,
+          "crc32": 447838355
+        }
+      },
+      "version": "1.9",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-en_de",
+      "source": "en",
+      "target": "de",
+      "url": "https://argos-net.com/v1/translate-en_de-1_3.argosmodel",
+      "bytes": 150508297,
+      "md5": "f6e0afb0ca072531f500447b675f68b5",
+      "root": "translate-en_de-1_3",
+      "files": {
+        "model/config.json": {
+          "bytes": 198,
+          "crc32": 104242624
+        },
+        "model/model.bin": {
+          "bytes": 162737071,
+          "crc32": 1533459255
+        },
+        "model/shared_vocabulary.json": {
+          "bytes": 598284,
+          "crc32": 1664506936
+        },
+        "README.md": {
+          "bytes": 30,
+          "crc32": 3245907661
+        },
+        "metadata.json": {
+          "bytes": 133,
+          "crc32": 3428680547
+        },
+        "sentencepiece.model": {
+          "bytes": 816043,
+          "crc32": 1491266678
+        }
+      },
+      "version": "1.3",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-en_it",
+      "source": "en",
+      "target": "it",
+      "url": "https://argos-net.com/v1/translate-en_it-1_0.argosmodel",
+      "bytes": 87660780,
+      "md5": "8e1335787f445de5e3335e497604bfb9",
+      "root": "en_it",
+      "files": {
+        "sentencepiece.model": {
+          "bytes": 801243,
+          "crc32": 4003193154
+        },
+        "model/model.bin": {
+          "bytes": 94392546,
+          "crc32": 687514598
+        },
+        "model/shared_vocabulary.txt": {
+          "bytes": 307505,
+          "crc32": 3456518846
+        },
+        "metadata.json": {
+          "bytes": 159,
+          "crc32": 4108121108
+        },
+        "README.md": {
+          "bytes": 200,
+          "crc32": 1051212961
+        }
+      },
+      "version": "1.0",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-en_ja",
+      "source": "en",
+      "target": "ja",
+      "url": "https://argos-net.com/v1/translate-en_ja-1_1.argosmodel",
+      "bytes": 120470284,
+      "md5": "d2b952094f61b150d56a2747381fcab5",
+      "root": "en_ja",
+      "files": {
+        "sentencepiece.model": {
+          "bytes": 787500,
+          "crc32": 2780700932
+        },
+        "model/model.bin": {
+          "bytes": 132573333,
+          "crc32": 3361567005
+        },
+        "model/shared_vocabulary.txt": {
+          "bytes": 399510,
+          "crc32": 3959629656
+        },
+        "metadata.json": {
+          "bytes": 160,
+          "crc32": 4051135808
+        },
+        "README.md": {
+          "bytes": 1810,
+          "crc32": 2470542333
+        }
+      },
+      "version": "1.1",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-en_ko",
+      "source": "en",
+      "target": "ko",
+      "url": "https://argos-net.com/v1/translate-en_ko-1_1.argosmodel",
+      "bytes": 120789009,
+      "md5": "236de9d03b9c43cd9353367f7881720b",
+      "root": "en_ko",
+      "files": {
+        "sentencepiece.model": {
+          "bytes": 775634,
+          "crc32": 3931668828
+        },
+        "model/model.bin": {
+          "bytes": 132573333,
+          "crc32": 1970688919
+        },
+        "model/shared_vocabulary.txt": {
+          "bytes": 397468,
+          "crc32": 2873460788
+        },
+        "metadata.json": {
+          "bytes": 158,
+          "crc32": 4089955543
+        },
+        "README.md": {
+          "bytes": 1232,
+          "crc32": 3809568108
+        }
+      },
+      "version": "1.1",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-en_pt",
+      "source": "en",
+      "target": "pt",
+      "url": "https://argos-net.com/v1/translate-en_pt-1_9.argosmodel",
+      "bytes": 66179184,
+      "md5": "a3b3469ac41349196a8c6833ce4df195",
+      "root": "translate-en_pt-1_9",
+      "files": {
+        "metadata.json": {
+          "bytes": 136,
+          "crc32": 147062796
+        },
+        "sentencepiece.model": {
+          "bytes": 777548,
+          "crc32": 1870772820
+        },
+        "README.md": {
+          "bytes": 404,
+          "crc32": 2048124417
+        },
+        "model/config.json": {
+          "bytes": 248,
+          "crc32": 1050557355
+        },
+        "model/model.bin": {
+          "bytes": 80298997,
+          "crc32": 97578091
+        },
+        "model/shared_vocabulary.json": {
+          "bytes": 1128373,
+          "crc32": 4283333232
+        }
+      },
+      "version": "1.9",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-en_es",
+      "source": "en",
+      "target": "es",
+      "url": "https://argos-net.com/v1/translate-en_es-1_0.argosmodel",
+      "bytes": 87503191,
+      "md5": "57703f13f9245ddc1e23883653f15fb5",
+      "root": "en_es",
+      "files": {
+        "sentencepiece.model": {
+          "bytes": 795667,
+          "crc32": 1397266248
+        },
+        "model/model.bin": {
+          "bytes": 94392546,
+          "crc32": 4232669270
+        },
+        "model/shared_vocabulary.txt": {
+          "bytes": 301928,
+          "crc32": 3789859694
+        },
+        "metadata.json": {
+          "bytes": 159,
+          "crc32": 2285645093
+        },
+        "README.md": {
+          "bytes": 339,
+          "crc32": 2102800020
+        }
+      },
+      "version": "1.0",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-fr_en",
+      "source": "fr",
+      "target": "en",
+      "url": "https://argos-net.com/v1/translate-fr_en-1_9.argosmodel",
+      "bytes": 66585033,
+      "md5": "ffb9ded45c2d8c83f9729e82aadb623a",
+      "root": "translate-fr_en-1_9",
+      "files": {
+        "README.md": {
+          "bytes": 400,
+          "crc32": 2480799522
+        },
+        "sentencepiece.model": {
+          "bytes": 802397,
+          "crc32": 3928817373
+        },
+        "metadata.json": {
+          "bytes": 134,
+          "crc32": 39802949
+        },
+        "model/config.json": {
+          "bytes": 196,
+          "crc32": 2677383816
+        },
+        "model/model.bin": {
+          "bytes": 79860078,
+          "crc32": 2748121384
+        },
+        "model/shared_vocabulary.json": {
+          "bytes": 1112211,
+          "crc32": 447838355
+        }
+      },
+      "version": "1.9",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-de_en",
+      "source": "de",
+      "target": "en",
+      "url": "https://argos-net.com/v1/translate-de_en-1_3.argosmodel",
+      "bytes": 150512831,
+      "md5": "4bca04e36bf3bb49a2a4e5ab25447099",
+      "root": "translate-de_en-1_3",
+      "files": {
+        "model/config.json": {
+          "bytes": 197,
+          "crc32": 518327051
+        },
+        "model/model.bin": {
+          "bytes": 162736973,
+          "crc32": 4285626542
+        },
+        "model/shared_vocabulary.json": {
+          "bytes": 605348,
+          "crc32": 888692592
+        },
+        "README.md": {
+          "bytes": 30,
+          "crc32": 464451325
+        },
+        "metadata.json": {
+          "bytes": 133,
+          "crc32": 3460639737
+        },
+        "sentencepiece.model": {
+          "bytes": 821672,
+          "crc32": 4003307090
+        }
+      },
+      "version": "1.3",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-it_en",
+      "source": "it",
+      "target": "en",
+      "url": "https://argos-net.com/v1/translate-it_en-1_0.argosmodel",
+      "bytes": 87190224,
+      "md5": "f5a6666b88bd5069dca9058c5ab78584",
+      "root": "it_en",
+      "files": {
+        "sentencepiece.model": {
+          "bytes": 800051,
+          "crc32": 1022485595
+        },
+        "model/model.bin": {
+          "bytes": 94392546,
+          "crc32": 580117074
+        },
+        "model/shared_vocabulary.txt": {
+          "bytes": 306313,
+          "crc32": 3475197357
+        },
+        "metadata.json": {
+          "bytes": 159,
+          "crc32": 4022158780
+        },
+        "README.md": {
+          "bytes": 200,
+          "crc32": 3232179483
+        }
+      },
+      "version": "1.0",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-ja_en",
+      "source": "ja",
+      "target": "en",
+      "url": "https://argos-net.com/v1/translate-ja_en-1_1.argosmodel",
+      "bytes": 117155716,
+      "md5": "f00bf54369e060fbbe2f32ef610fce51",
+      "root": "ja_en",
+      "files": {
+        "sentencepiece.model": {
+          "bytes": 787932,
+          "crc32": 3892644241
+        },
+        "model/model.bin": {
+          "bytes": 132573333,
+          "crc32": 2837455943
+        },
+        "model/shared_vocabulary.txt": {
+          "bytes": 400498,
+          "crc32": 955660741
+        },
+        "metadata.json": {
+          "bytes": 160,
+          "crc32": 1517654953
+        },
+        "README.md": {
+          "bytes": 1810,
+          "crc32": 2470542333
+        }
+      },
+      "version": "1.1",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-ko_en",
+      "source": "ko",
+      "target": "en",
+      "url": "https://argos-net.com/v1/translate-ko_en-1_1.argosmodel",
+      "bytes": 118852077,
+      "md5": "0028788c7f56847f3e18840a7cdbb388",
+      "root": "ko_en",
+      "files": {
+        "sentencepiece.model": {
+          "bytes": 775609,
+          "crc32": 1967214354
+        },
+        "model/model.bin": {
+          "bytes": 132573333,
+          "crc32": 4159704569
+        },
+        "model/shared_vocabulary.txt": {
+          "bytes": 395408,
+          "crc32": 2566102971
+        },
+        "metadata.json": {
+          "bytes": 158,
+          "crc32": 3360169476
+        },
+        "README.md": {
+          "bytes": 1232,
+          "crc32": 2743600091
+        }
+      },
+      "version": "1.1",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-pt_en",
+      "source": "pt",
+      "target": "en",
+      "url": "https://argos-net.com/v1/translate-pt_en-1_9.argosmodel",
+      "bytes": 69447231,
+      "md5": "e5721c2516115e3b226416f22a8ed56c",
+      "root": "translate-pt_en-1_9",
+      "files": {
+        "README.md": {
+          "bytes": 404,
+          "crc32": 2957862014
+        },
+        "sentencepiece.model": {
+          "bytes": 805638,
+          "crc32": 3942139639
+        },
+        "metadata.json": {
+          "bytes": 138,
+          "crc32": 755854734
+        },
+        "model/config.json": {
+          "bytes": 231,
+          "crc32": 151346454
+        },
+        "model/model.bin": {
+          "bytes": 80130517,
+          "crc32": 1524348733
+        },
+        "model/shared_vocabulary.json": {
+          "bytes": 1119636,
+          "crc32": 103814107
+        }
+      },
+      "version": "1.9",
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    },
+    {
+      "id": "translate-es_en",
+      "source": "es",
+      "target": "en",
+      "url": "https://argos-net.com/v1/translate-es_en-1_0.argosmodel",
+      "bytes": 87381097,
+      "md5": "59ddd113a4ac3127586dab31cc8713ef",
+      "version": "1.0",
+      "index_revision": "9ae4e2e4606e7325d8cf1898e5c7600954f64c61",
+      "root": "es_en",
+      "files": {
+        "sentencepiece.model": {
+          "bytes": 795287,
+          "crc32": 2692149496
+        },
+        "model/model.bin": {
+          "bytes": 94392546,
+          "crc32": 2403516136
+        },
+        "model/shared_vocabulary.txt": {
+          "bytes": 301548,
+          "crc32": 2725444526
+        },
+        "metadata.json": {
+          "bytes": 159,
+          "crc32": 573262018
+        },
+        "README.md": {
+          "bytes": 339,
+          "crc32": 211209038
+        }
+      },
+      "license": "See package README attribution and upstream Argos/OPUS terms"
+    }
+  ],
+  "index_revision": "ff90de60728f7c1338ff6b75974e4c89b2442d22",
+  "index_url": "https://raw.githubusercontent.com/argosopentech/argospm-index/ff90de60728f7c1338ff6b75974e4c89b2442d22/index.json",
+  "verified_on": "2026-09-22",
+  "integrity": "Argos MD5 checksums from the HTTPS object ETag; extracted files checked against pinned ZIP CRC32/size. No upstream SHA256 manifest was published. Locally generated SHA256 manifest after verification.",
+  "asr_small": {
+    "repository": "Systran/faster-whisper-small",
+    "revision": "536b0662742c02347bc0e980a01041f333bce120",
+    "license": "MIT",
+    "files": {
+      "config.json": {
+        "bytes": 2370,
+        "sha256": "b55496ac7940a7ae47d2c01eab40edfd8701feec1229d9cce3b40014383fb828"
+      },
+      "model.bin": {
+        "bytes": 483546902,
+        "sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671"
+      },
+      "tokenizer.json": {
+        "bytes": 2203239,
+        "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab"
+      },
+      "vocabulary.txt": {
+        "bytes": 459861,
+        "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+      }
+    }
+  }
+}
