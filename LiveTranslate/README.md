@@ -23,7 +23,7 @@ The settings menu includes playback quality, volume and mute, pause, restart, fu
 
 You can change the input language, output language, and recognition model during playback. If all required packages are already installed, playback restarts its delay from the current position on X/Kick or from the available live segment on sources without DVR. If a package is missing, download it from **Language**; the change applies when installation finishes. Packages cannot be removed while a session is active.
 
-The portable release includes `small.en` and OPUS English → Spanish. `base.en`, multilingual `small`, and other translation directions are available through the Language manager. Selecting a language does not download it automatically. Nine input and output languages are supported through local packages; English is the interface fallback for output languages other than English, Spanish, Portuguese, and French.
+The portable release includes `small.en` and OPUS English → Spanish. `base.en`, multilingual `small`, and other translation directions are available through the Language manager. Selecting a language does not download it automatically. The nine selectable input and output languages are English, Spanish, Portuguese, French, German, Italian, Japanese, Korean, and Simplified Chinese. Non-English to non-English translation uses English as a bridge when needed. The interface uses English for output languages other than English, Spanish, Portuguese, and French.
 
 ## Files and privacy
 
