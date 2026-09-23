@@ -373,6 +373,7 @@ def main():
     legacy_lock.unlock()
     store = MemorySettings(AppSettings().load()[0]) if args.auto_exit or args.ui_check else None
     window = LocalWindow(args, store=store)
+    app.setWindowIcon(window.windowIcon())
     window.show()
     if args.ui_check:
         def capture():

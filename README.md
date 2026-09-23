@@ -1,4 +1,11 @@
-# Langbuffer
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="Langbuffer/src/langbuffer/assets/langbuffer.png">
+    <img src="Langbuffer/src/langbuffer/assets/langbuffer-light.png" width="112" alt="Langbuffer logo">
+  </picture>
+</p>
+
+<h1 align="center">Langbuffer</h1>
 
 Langbuffer is a Windows desktop app that translates live streams with local speech recognition. It intentionally buffers a short, configurable amount of video and audio in RAM. Recognition and translation work on the incoming audio while the viewer's video and sound wait. This gives the translation nearby context and time to settle before a subtitle appears, instead of improvising a word-by-word translation as the scene plays. Once a subtitle is shown, its text stays fixed and aligned with the delayed playback.
 
@@ -22,7 +29,7 @@ The portable download includes English recognition and English → Spanish trans
 
 ## Download and run
 
-Download **`Langbuffer-v0.1.1-beta.1-windows-x64.zip` from [Releases](https://github.com/sw413sg/langbuffer/releases)**, extract the entire archive to a writable folder, and open `Langbuffer/Start Langbuffer.cmd`. The portable package includes Python, the app's dependencies, the `small.en` English speech model, and English-to-Spanish translation. Additional speech models and language pairs can be downloaded in the app's **Language** manager.
+Download **`Langbuffer-v0.1.1-beta.2-windows-x64.zip` from [Releases](https://github.com/sw413sg/langbuffer/releases)**, extract the entire archive to a writable folder, and open `Langbuffer/Start Langbuffer.cmd`. The portable package includes Python, the app's dependencies, the `small.en` English speech model, and English-to-Spanish translation. Additional speech models and language pairs can be downloaded in the app's **Language** manager.
 
 GitHub's **Code → Download ZIP** contains source code only. It does not contain the Python runtime or models and is not the ready-to-run download.
 

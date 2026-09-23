@@ -1,10 +1,10 @@
-# Langbuffer v0.1.1-beta.1
+# Langbuffer v0.1.1-beta.2
 
-Langbuffer is the new name of Live Translate. This portable Windows x64 update renames the application, its Python module, launchers, and archive. Playback, recognition, translation, supported sources, and local package handling retain their existing behavior.
+This Windows x64 update adds the Langbuffer icon to the app window and a centered logo to the repository README. Both use transparent backgrounds; the README selects a light or dark colorway to remain visible with GitHub's theme. Playback, recognition, translation, supported sources, and local package handling retain their existing behavior.
 
 ## Download
 
-Download `Langbuffer-v0.1.1-beta.1-windows-x64.zip` and its `.sha256` file from this Release. Extract the archive to a writable folder and open `Langbuffer/Start Langbuffer.cmd` or `Langbuffer/Iniciar Langbuffer.cmd`. GitHub's source-code ZIP does not include the runtime or models.
+Download `Langbuffer-v0.1.1-beta.2-windows-x64.zip` and its `.sha256` file from this Release. Extract the archive to a writable folder and open `Langbuffer/Start Langbuffer.cmd` or `Langbuffer/Iniciar Langbuffer.cmd`. GitHub's source-code ZIP does not include the runtime or models.
 
 The package includes Python, Qt, local English recognition (`small.en`), and English-to-Spanish OPUS translation. Other recognition models and translation directions remain available through the Language manager.
 

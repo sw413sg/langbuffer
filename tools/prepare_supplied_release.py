@@ -14,8 +14,10 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "Langbuffer"
-OUTPUT = ROOT / "dist" / "Langbuffer-v0.1.1-beta.1-windows-x64.zip"
+OUTPUT = ROOT / "dist" / "Langbuffer-v0.1.1-beta.2-windows-x64.zip"
 OVERLAYS = {
+    "Langbuffer/src/langbuffer/assets/langbuffer.png": APP / "src" / "langbuffer" / "assets" / "langbuffer.png",
+    "Langbuffer/src/langbuffer/assets/langbuffer-light.png": APP / "src" / "langbuffer" / "assets" / "langbuffer-light.png",
     "Langbuffer/README.md": APP / "README.md",
     "Langbuffer/THIRD_PARTY.md": APP / "THIRD_PARTY.md",
     "Langbuffer/LICENSE": ROOT / "LICENSE",

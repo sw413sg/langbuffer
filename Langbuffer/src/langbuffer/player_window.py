@@ -1,6 +1,7 @@
 """Reproductor con marco alternable; cerrar solicita limpieza cooperativa."""
 import math
 import sys
+from pathlib import Path
 from PySide6.QtCore import Qt, QEvent, Signal, QRect, QTimer, QSize
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, QApplication, QSlider, QStyle
 from PySide6.QtGui import QPalette, QPainter, QIcon, QCursor, QShortcut, QKeySequence
@@ -21,6 +22,7 @@ class PlayerWindow(QWidget):
         # layout_chrome reserva el título; evitar que Qt sume otra vez su área segura.
         self.setAttribute(Qt.WidgetAttribute.WA_ContentsMarginsRespectsSafeArea, False)
         self.setWindowTitle('Langbuffer')  # Identificación en la barra de tareas.
+        self.setWindowIcon(QIcon(str(Path(__file__).with_name('assets') / 'langbuffer.png')))
         self.setMinimumSize(320, 180)
         self.resize(1120, 630)
         palette = self.palette()

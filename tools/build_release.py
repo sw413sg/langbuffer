@@ -14,7 +14,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "Langbuffer"
 DIST = ROOT / "dist"
-ARCHIVE = DIST / "Langbuffer-v0.1.1-beta.1-windows-x64.zip"
+ARCHIVE = DIST / "Langbuffer-v0.1.1-beta.2-windows-x64.zip"
 LIMIT = 2 * 1024**3
 
 DIRECTORIES = (
