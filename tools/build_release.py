@@ -1,6 +1,6 @@
 """Build the portable Windows release without local preferences or metrics.
 
-Run from the repository root with: LiveTranslate/runtime/python.exe tools/build_release.py
+Run from the repository root with: Langbuffer/runtime/python.exe tools/build_release.py
 """
 
 from __future__ import annotations
@@ -12,9 +12,9 @@ import zipfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-APP = ROOT / "LiveTranslate"
+APP = ROOT / "Langbuffer"
 DIST = ROOT / "dist"
-ARCHIVE = DIST / "LiveTranslate-windows-x64.zip"
+ARCHIVE = DIST / "Langbuffer-v0.1.1-beta.1-windows-x64.zip"
 LIMIT = 2 * 1024**3
 
 DIRECTORIES = (
@@ -25,8 +25,8 @@ DIRECTORIES = (
     APP / "data" / "translation" / "opus-en-es",
 )
 FILES = (
-    APP / "Iniciar Live Translate.cmd",
-    APP / "Start Live Translate.cmd",
+    APP / "Iniciar Langbuffer.cmd",
+    APP / "Start Langbuffer.cmd",
     APP / "README.md",
     APP / "THIRD_PARTY.md",
     APP / "requirements-lock.txt",
@@ -54,7 +54,7 @@ def release_files():
 
 def member_name(path):
     if path == ROOT / "LICENSE":
-        return "LiveTranslate/LICENSE"
+        return "Langbuffer/LICENSE"
     return path.relative_to(ROOT).as_posix()
 
 

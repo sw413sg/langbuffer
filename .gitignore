@@ -1,5 +1,5 @@
-LiveTranslate/runtime/
-LiveTranslate/data/
+Langbuffer/runtime/
+Langbuffer/data/
 .relocation-check/
 .venv/
 work/
@@ -9,5 +9,7 @@ __pycache__/
 build/
 dist/
 outputs/
-LiveTranslate/outputs/
+Langbuffer/outputs/
 AGENTS.md
+/docs/
+/Langbuffer/docs/

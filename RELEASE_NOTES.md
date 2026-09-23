@@ -1,23 +1,17 @@
-# Live Translate v0.1.0-beta.1
+# Langbuffer v0.1.1-beta.1
 
-First public Windows x64 portable build of Live Translate.
+Langbuffer is the new name of Live Translate. This portable Windows x64 update renames the application, its Python module, launchers, and archive. Playback, recognition, translation, supported sources, and local package handling retain their existing behavior.
 
 ## Download
 
-Download `LiveTranslate-v1.zip` from this Release, extract the full archive to a writable folder, and open `LiveTranslate/Start Live Translate.cmd`. Do not use GitHub's source-code ZIP as the app download.
+Download `Langbuffer-v0.1.1-beta.1-windows-x64.zip` and its `.sha256` file from this Release. Extract the archive to a writable folder and open `Langbuffer/Start Langbuffer.cmd` or `Langbuffer/Iniciar Langbuffer.cmd`. GitHub's source-code ZIP does not include the runtime or models.
 
-The package includes Python, the app's dependencies, local English recognition (`small.en`), and English-to-Spanish OPUS translation. Other recognition models and language pairs can be downloaded in the Language manager. No Python installation, Windows Live Captions setup, or system Node.js installation is required.
+The package includes Python, Qt, local English recognition (`small.en`), and English-to-Spanish OPUS translation. Other recognition models and translation directions remain available through the Language manager.
 
-## Included features
+## Upgrading from Live Translate
 
-- Delayed audio and video playback with stable translated subtitles prepared by local speech recognition.
-- Public X broadcasts, Twitch and Kick channels, active YouTube live links, and compatible public Facebook links.
-- Nine input and output languages through local downloadable packages.
-- Playback quality, pause, volume, fullscreen, subtitle appearance, manual subtitle timing offset, and source DVR where available.
-- Temporary media buffers in RAM. The app does not save audio, video, or transcripts.
+Close the old app before upgrading. To carry over installed optional models and preferences to a separate extraction, copy `LiveTranslate/data/preferences.json`, `LiveTranslate/data/models/`, and `LiveTranslate/data/language-packages/` into the corresponding `Langbuffer/data/` paths. Existing bundled model files may be left in place. Do not copy `outputs/` or temporary download folders.
 
-## Current limits
+## Scope and limits
 
-This is a beta package. It was checked after extraction on the development computer, but has not been tested on a clean Windows installation. Stream availability and formats can change; Facebook has synthetic playback coverage but no real link validation. Subtitle timing is estimated, and simultaneous recognition performance has not been measured with two real streams. See the README for supported URL forms and other limits.
-
-The portable archive is about 903 MB. Its SHA-256 is in `LiveTranslate-v1.zip.sha256` attached to this Release.
+The app uses a bounded RAM buffer for delayed playback and does not save media or transcripts. This is still a beta package. Stream formats may change, Facebook playback has synthetic coverage but no real link validation, subtitle timing is estimated, and a clean Windows installation remains untested. See the README for details.

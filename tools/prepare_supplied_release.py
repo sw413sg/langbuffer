@@ -1,6 +1,6 @@
 """Clean a supplied portable ZIP before attaching it to a public Release.
 
-Run with: LiveTranslate/runtime/python.exe tools/prepare_supplied_release.py INPUT.zip
+Run with: Langbuffer/runtime/python.exe tools/prepare_supplied_release.py INPUT.zip
 """
 
 from __future__ import annotations
@@ -13,31 +13,31 @@ import zipfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-APP = ROOT / "LiveTranslate"
-OUTPUT = ROOT / "dist" / "LiveTranslate-v1.zip"
+APP = ROOT / "Langbuffer"
+OUTPUT = ROOT / "dist" / "Langbuffer-v0.1.1-beta.1-windows-x64.zip"
 OVERLAYS = {
-    "LiveTranslate/README.md": APP / "README.md",
-    "LiveTranslate/THIRD_PARTY.md": APP / "THIRD_PARTY.md",
-    "LiveTranslate/LICENSE": ROOT / "LICENSE",
-    "LiveTranslate/Start Live Translate.cmd": APP / "Start Live Translate.cmd",
-    "LiveTranslate/Iniciar Live Translate.cmd": APP / "Iniciar Live Translate.cmd",
-    "LiveTranslate/third_party/whisper-model-LICENSE": APP / "third_party" / "whisper-model-LICENSE",
+    "Langbuffer/README.md": APP / "README.md",
+    "Langbuffer/THIRD_PARTY.md": APP / "THIRD_PARTY.md",
+    "Langbuffer/LICENSE": ROOT / "LICENSE",
+    "Langbuffer/Start Langbuffer.cmd": APP / "Start Langbuffer.cmd",
+    "Langbuffer/Iniciar Langbuffer.cmd": APP / "Iniciar Langbuffer.cmd",
+    "Langbuffer/third_party/whisper-model-LICENSE": APP / "third_party" / "whisper-model-LICENSE",
 }
 
 
 def skip(name):
     parts = PurePosixPath(name).parts
-    if not parts or parts[0] != "LiveTranslate" or ".." in parts:
+    if not parts or parts[0] != "Langbuffer" or ".." in parts:
         raise ValueError(f"Unexpected ZIP path: {name}")
     if "__pycache__" in parts or name.endswith(".pyc"):
         return True
-    if name in {"LiveTranslate/data/preferences.json", "LiveTranslate/README.md"}:
+    if name in {"Langbuffer/data/preferences.json", "Langbuffer/README.md"}:
         return name not in OVERLAYS
-    if (name.startswith("LiveTranslate/outputs/")
-            or name.startswith("LiveTranslate/data/package-coordination/")
-            or name.startswith("LiveTranslate/data/language-downloads/")
-            or name.startswith("LiveTranslate/tests/")
-            or name.startswith("LiveTranslate/docs/")):
+    if (name.startswith("Langbuffer/outputs/")
+            or name.startswith("Langbuffer/data/package-coordination/")
+            or name.startswith("Langbuffer/data/language-downloads/")
+            or name.startswith("Langbuffer/tests/")
+            or name.startswith("Langbuffer/docs/")):
         return True
     return name in OVERLAYS
 
@@ -59,9 +59,9 @@ def main():
             names = original.namelist()
             if len(names) != len(set(names)):
                 raise ValueError("Input ZIP has duplicate paths")
-            required = {"LiveTranslate/runtime/pythonw.exe",
-                        "LiveTranslate/data/models/small.en/model.bin",
-                        "LiveTranslate/data/translation/opus-en-es/model.bin"}
+            required = {"Langbuffer/runtime/pythonw.exe",
+                        "Langbuffer/data/models/small.en/model.bin",
+                        "Langbuffer/data/translation/opus-en-es/model.bin"}
             if not required.issubset(names):
                 raise ValueError(f"Input ZIP is missing: {required - set(names)}")
             for entry in original.infolist():
