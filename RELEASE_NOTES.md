@@ -4,7 +4,7 @@ First public Windows x64 portable build of Live Translate.
 
 ## Download
 
-Download `LiveTranslate-windows-x64.zip` from this Release, extract the full archive to a writable folder, and open `LiveTranslate/Iniciar Live Translate.cmd`. Do not use GitHub's source-code ZIP as the app download.
+Download `LiveTranslate-v1.zip` from this Release, extract the full archive to a writable folder, and open `LiveTranslate/Start Live Translate.cmd`. Do not use GitHub's source-code ZIP as the app download.
 
 The package includes Python, the app's dependencies, local English recognition (`small.en`), and English-to-Spanish OPUS translation. Other recognition models and language pairs can be downloaded in the Language manager. No Python installation, Windows Live Captions setup, or system Node.js installation is required.
 
@@ -20,4 +20,4 @@ The package includes Python, the app's dependencies, local English recognition (
 
 This is a beta package. It was checked after extraction on the development computer, but has not been tested on a clean Windows installation. Stream availability and formats can change; Facebook has synthetic playback coverage but no real link validation. Subtitle timing is estimated, and simultaneous recognition performance has not been measured with two real streams. See the README for supported URL forms and other limits.
 
-The portable archive is about 903 MB. Its SHA-256 is in `LiveTranslate-windows-x64.zip.sha256` attached to this Release.
+The portable archive is about 903 MB. Its SHA-256 is in `LiveTranslate-v1.zip.sha256` attached to this Release.

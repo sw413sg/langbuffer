@@ -4,7 +4,7 @@ This is the only current version of Live Translate. It uses local speech recogni
 
 ## Start
 
-Double-click **Iniciar Live Translate.cmd**. The portable release includes Python, Qt, the `small.en` recognition model, and English-to-Spanish OPUS translation. You do not need to install Python or use Windows Live Captions. This development installation may contain additional models and language packages.
+Double-click **Start Live Translate.cmd**. The portable release includes Python, Qt, the `small.en` recognition model, and English-to-Spanish OPUS translation. You do not need to install Python or use Windows Live Captions. This development installation may contain additional models and language packages. The original Spanish-named launcher remains available.
 
 Paste a supported public link, choose input and output languages in **Language**, check the playback delay, and press **Start**. Playback continues until you stop it, the source ends, or an error occurs. If the same stream is also playing in your browser, pause or mute the browser player to avoid duplicate audio.
 

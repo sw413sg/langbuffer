@@ -26,6 +26,7 @@ DIRECTORIES = (
 )
 FILES = (
     APP / "Iniciar Live Translate.cmd",
+    APP / "Start Live Translate.cmd",
     APP / "README.md",
     APP / "THIRD_PARTY.md",
     APP / "requirements-lock.txt",

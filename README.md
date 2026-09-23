@@ -4,7 +4,7 @@ Live Translate is a Windows desktop app that plays live streams with a configura
 
 ## Download and run
 
-Download **`LiveTranslate-windows-x64.zip` from [Releases](https://github.com/sw413sg/live-translate/releases)**, extract the entire archive to a writable folder, and open `LiveTranslate/Iniciar Live Translate.cmd`. The portable package includes Python, the app's dependencies, the `small.en` English speech model, and English-to-Spanish translation. Additional speech models and language pairs can be downloaded in the app's **Language** manager.
+Download **`LiveTranslate-v1.zip` from [Releases](https://github.com/sw413sg/live-translate/releases)**, extract the entire archive to a writable folder, and open `LiveTranslate/Start Live Translate.cmd`. The portable package includes Python, the app's dependencies, the `small.en` English speech model, and English-to-Spanish translation. Additional speech models and language pairs can be downloaded in the app's **Language** manager.
 
 GitHub's **Code → Download ZIP** contains source code only. It does not contain the Python runtime or models and is not the ready-to-run download.
 
